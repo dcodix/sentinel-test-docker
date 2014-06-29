@@ -8,12 +8,12 @@ cd tmp
 git clone git@github.com:dcodix/sentinel-test-docker.git
 cd sentinel-test-docker
 cd docker-redis
-docker build -t redis_sentinel .
+sudo docker build -t redis_sentinel .
 ```
 
 ## Running Docker image
 ```
-docker run -i -t redis_sentinel
+sudo docker run -i -t redis_sentinel
 ```
 
 ## Sentinel failover test instructions
