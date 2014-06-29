@@ -1,4 +1,4 @@
 sentinel-test-docker
 ====================
 
-Dockr ans dinstructions for testing purposes on redis-sentinel
+Instructions for firing 2 (or more) redis+sentinel instances with Docker to "taste" sentinel failover.
