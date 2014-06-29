@@ -53,13 +53,13 @@ redis-cli info replication
 #### T1
 ```
 redis-cli keys "*"
-redis-cli set a a
+redis-cli set dr who
 redis-cli keys "*"
 ```
 #### T2
 ```
 redis-cli keys "*"
-redis-cli set b b
+redis-cli set rose tyler
 redis-cli keys "*"
 ```
 
@@ -122,7 +122,7 @@ redis-cli info replication
 It is time to launch the fallen redis again to see what happens.
 First we will add some new data to the master in T2:
 ```
-redis-cli set g g
+redis-cli set amy pond
 redis-cli keys "*"
 ```
 On T1:
